@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: grade-calculator-deployment1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: grade-calculator
+  template:
+    metadata:
+      labels:
+        app: grade-calculator
+    spec:
+      containers:
+        - name: grade-calculator-container
+          image: praveenkumartv111/grade-calculator-app:latest_v3
+          ports:
+            - containerPort: 80
