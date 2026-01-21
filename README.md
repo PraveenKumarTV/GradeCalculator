@@ -51,6 +51,9 @@ Docker (pull prebuilt image)
 
 Note: The image may serve the built app on a different port or via a static server. If the container does not expose port 5173, check the image documentation or inspect the Dockerfile used to build the image.
 
+Jenkins:
+Used jenkins to implement CI/CD Pipeline
+
 How calculation works (brief)
 - Assignment % = (A1 + A2) / 80 * 100
 - CAT % = (CAT1 + CAT2) / 120 * 100
