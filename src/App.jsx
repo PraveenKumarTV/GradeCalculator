@@ -143,7 +143,7 @@ export default function App() {
         <footer className="mt-8 text-center">
       <hr className="border-slate-200 my-4" />
       <p className="text-sm text-slate-500 italic">
-       Created to simplify academic life
+       Designed to make student life easier
       </p>
     </footer>
       </div>
