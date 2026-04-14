@@ -24,7 +24,7 @@ const GradeForm = () => {
 
     return (
         <form onSubmit={handleSubmit} className="p-4 bg-white rounded shadow-md">
-            <h2 className="text-xl font-bold mb-4">Grade Calculator</h2>
+            <h2 className="text-xl font-bold mb-4">TCE Grade Calculator</h2>
             <InternalMarks onChange={handleInternalMarksChange} />
             <ExternalMarks onChange={handleExternalMarksChange} />
             <button type="submit" className="mt-4 bg-blue-500 text-white py-2 px-4 rounded">
